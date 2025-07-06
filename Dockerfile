@@ -9,6 +9,6 @@ RUN yum install -y python3 && \
     pip3 install --upgrade pip
 
 RUN pip3 install flask pytest
-`
+
 
 ENTRYPOINT ["pytest" , "test_app.py"]
